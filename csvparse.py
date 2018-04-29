@@ -1,8 +1,11 @@
-with open("/Users/henryboswell/Desktop/Pants/zarapants.csv") as f:
+with open("/Users/henryboswell/Desktop/Pants/alllabels.txt") as f:
     content = f.readlines()
 
+f.close()
+print content
 
-print content[0].split(',')[5].replace('"', '')
 
-for item in content:
-	print item.split(',')[5].replace('"', '')
+
+
+
+/Users/henryboswell/Desktop/Pants/desc2/
